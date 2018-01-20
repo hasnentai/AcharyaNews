@@ -1,16 +1,77 @@
-// http://ionicframework.com/docs/theming/
-
-
-// App Global Sass
-// --------------------------------------------------
-// Put style rules here that you want to apply globally. These
-// styles are for the entire app and not just one component.
-// Additionally, this file can be also used as an entry point
-// to import other Sass files to be included in the output CSS.
-//
-// Shared Sass variables, which can be used to adjust Ionic's
-// default Sass variables, belong in "theme/variables.scss".
-//
-// To declare rules for a specific mode, create a child rule
-// for the .md, .ios, or .wp mode classes. The mode class is
-// automatically applied to the <body> element in the app.
+    // http://ionicframework.com/docs/theming/
+    // App Global Sass
+    // --------------------------------------------------
+    // Put style rules here that you want to apply globally. These
+    // styles are for the entire app and not just one component.
+    // Additionally, this file can be also used as an entry point
+    // to import other Sass files to be included in the output CSS.
+    //
+    // Shared Sass variables, which can be used to adjust Ionic's
+    // default Sass variables, belong in "theme/variables.scss".
+    //
+    // To declare rules for a specific mode, create a child rule
+    // for the .md, .ios, or .wp mode classes. The mode class is
+    // automatically applied to the <body> element in the app.
+    .bg {
+        background-color: #393939!important;
+    }
+    
+    .border {
+        border-bottom: 1px solid #d6ba0a!important;
+    }
+    
+    .list {
+        .item {
+            background-color: transparent;
+            color: white;
+        }
+        ion-icon {
+            color: #989898;
+        }
+    }
+    
+    .avt {
+        height: 90px;
+        width: 90px;
+        border-radius: 100%;
+        background-image: url('../assets/imgs/log.png');
+        background-size: cover;
+        background-position-x: center;
+        //   display: flex;
+        margin: 0 auto;
+        margin-top: 12%;
+    }
+    
+    .text {
+        margin-top: 15px;
+        color: white;
+        margin-bottom: 10%;
+    }
+    
+    .active {
+        background-color: #f8902f!important;
+        ion-icon {
+            color: #fff;
+        }
+    }
+    
+    .tabbar a[aria-selected=true] {
+        border-bottom: 2px solid #fff;
+    }
+    
+    .menu.menu-left {
+        width: calc(100% - 70px) !important;
+    }
+    
+    .menu-open .menu-content {
+        transform: translate3d(calc(100% - 70px), 0px, 0px) !important;
+    }
+    
+    ion-menu.show-menu {
+        display: block;
+        width: 70%;
+    }
+    
+    .menu-inner {
+        width: 100%!important;
+    }

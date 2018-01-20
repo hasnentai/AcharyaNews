@@ -1,3 +1,60 @@
 page-home {
-
+    .model {
+        height: 100%;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.53);
+        position: fixed;
+        margin-left: -100%;
+        z-index: 100;
+        ion-buttons {
+            button {
+                color: #fff!important;
+                background-color: transparent!important;
+                box-shadow: none!important;
+            }
+            .button {}
+        }
+    }
+    ion-header {
+        border-bottom: 2px solid #d6ba0a;
+    }
+    ion-content {
+        background-color: #EBE6DB!important;
+    }
+    .tabber {
+        background-color: #d6ba0a
+    }
+    .tabs-md .tab-button[aria-selected=true] .tab-button-icon {
+        color: #000000;
+        -webkit-transform: translate3d(0, -2px, 0);
+        transform: translate3d(0, -2px, 0);
+    }
+    ion-card {
+        width: 100%!important;
+        margin-left: 0%!important;
+    }
+    ion-card-content p {
+        color: #3E3F41!important;
+    }
+    img {
+        border: 1px solid #c4c4c4;
+        margin-left: 2%;
+        margin-right: 2%;
+        width: 96%;
+    }
+    .text-input {
+        margin-bottom: 0px!important;
+    }
+    .spinner-container {
+        width: 100%;
+        text-align: center;
+        margin-top: 150px;
+        padding: 10px;
+        position: fixed;
+        z-index: 200;
+        stroke-dashoffset: 150px;
+    }
+    .spinner-md-crescent circle {
+        stroke: #FFFFFF;
+    }
 }

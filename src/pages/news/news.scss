@@ -1,0 +1,66 @@
+page-news {
+    .img {
+        height: 50%;
+        img {
+            width: 100%;
+            height: 90%;
+        }
+    }
+    /*.line {
+        width: 100%;
+        height: 33%;
+        background: linear-gradient(180deg, transparent 8%, rgba(80, 80, 80, 0.9) 157%);
+        position: absolute;
+        z-index: 10;
+    }*/
+    .line {
+        width: 100%;
+        height: 150px;
+        position: absolute;
+        background: linear-gradient(180deg, transparent 8%, rgba(80, 80, 80, 0.9) 157%);
+        margin-top: -150px;
+        z-index: 10;
+    }
+    .badge {
+        position: absolute;
+        margin-top: -7%;
+        z-index: 1000;
+        margin-left: 3%;
+        font-size: larger;
+    }
+    .b2 {
+        background-color: transparent;
+        position: absolute;
+        margin-top: -7%;
+        z-index: 1000;
+        margin-left: 22%;
+        color: white;
+        font-size: small;
+    }
+    ion-label {
+        white-space: normal!important;
+    }
+    ion-avatar img {
+        border: 1px solid #BAB9B9!important;
+    }
+    p {
+        width: 92%;
+        margin-right: 4%;
+        margin-left: 4%;
+        text-align: left;
+        font-size: 1.1em;
+        letter-spacing: 0.5px;
+        color: #3E3F41;
+    }
+    .main {
+        ion-icon {
+            margin-left: 20%;
+            margin-top: -6.5%;
+            position: absolute;
+            font-size: 1.2em;
+        }
+    }
+    // ion-item {
+    //border-bottom: 1px solid #dedede!important;
+    //}
+}
